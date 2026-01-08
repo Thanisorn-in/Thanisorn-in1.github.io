@@ -1,0 +1,98 @@
+/* สไตล์พื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* การตั้งค่าเบื้องต้นสำหรับ body */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* การจัดการสำหรับ container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* การออกแบบ box ที่ใช้เก็บฟอร์ม */
+.register-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* หัวข้อของฟอร์ม */
+.register-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* กล่อง input */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fafafa;
+    transition: border 0.3s;
+}
+
+/* เปลี่ยนสี border เมื่อโฟกัส */
+.input-group input:focus {
+    border-color: #0044ff;
+    outline: none;
+}
+
+/* ปุ่ม submit */
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #0044ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0044ff;
+}
+
+/* ลิงก์ไปยังหน้า Login */
+.login-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: #0044ff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+

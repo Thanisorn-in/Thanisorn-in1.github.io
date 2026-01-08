@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.Login {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Login:hover {
+    background-color: #0044ff;
+    transform: translateY(-3px);
+}
+
+/* New Arrivals Section */
+.new-arrivals {
+    text-align: center;
+    padding: 20px;
+}
+
+.new-arrivals h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Product Grid */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.product img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+}
